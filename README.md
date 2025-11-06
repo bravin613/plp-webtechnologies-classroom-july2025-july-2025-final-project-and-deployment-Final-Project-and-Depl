@@ -1,90 +1,79 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# Towntor — Final Assignment
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+**Project:** Build, Organize, and Deploy a Multipage Website.
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+**Author:** Bravin Musali.
 
----
-
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
-
-Before you write any code, take time to plan:
-
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
+**Live site:**  `https://towntorrealestateagency.vercel.app/` 
 
 ---
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+## Project Overview
 
-Using your plan, begin building:
+**Towntor** is a responsive, multipage real estate website built for the final web development assignment. The site demonstrates semantic HTML5 structure, responsive CSS, and JavaScript interactivity. It showcases property listings (featured/new/popular), property categories, testimonials, a blog/news section, and contact functionality. The site is designed to be production-ready, organized, and deployable on static hosting platform  Vercel.
 
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
+**Primary goals**
 
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+* Deliver a clear, accessible user experience for browsing properties.
+* Use semantic HTML5 and mobile-first responsive CSS.
+* Implement interactive features with JavaScript (search, mobile nav, form validation).
+* Organize production-ready code and deploy the site.
 
 ---
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+## Pages / Site Map
 
-Before deployment, refactor your project to follow production-friendly practices:
+* `index.html` — Home (hero search, featured properties, categories, testimonials, CTA)
+* `about.html` — About the agency and mission/history
+* `property.html` — Listings grid with filters and categories
 
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
+* `service.html` — Services the agency offers (buying, selling, staging)
+* `Contact.html` — Contact form and contact details
 
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
-
----
-
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
 
 ---
 
-## Deliverables
+## Features & Requirements Implemented
 
-1. A GitHub repository containing:
+* **Responsive design**: Mobile-first breakpoints, header/footer consistency.
+* **Semantic markup**: Use of `<header>`, `<main>`, `<nav>`, `<section>`, `<article>`, `<footer>`.
+* **Interactive elements** (JavaScript):
 
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+  * Mobile toggle menu
+  * Search form handling (city/address/zip)
+  * Simple client-side form validation for contact form
+
+* **Accessible practices**:
+
+  * Descriptive alt text for images
+  * Proper heading hierarchy
+  * Focus styles for keyboard users
+* **Organized project structure** and modular, commented code.
 
 ---
 
-## Outcome
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+
+
+
+## Known Issues & Future Improvements
+
+* Data is static — consider adding a backend or static JSON to manage properties dynamically.
+* Add search suggestions / autocomplete for the search input.
+* Implement contact form server endpoint or Netlify Forms for real submissions.
+* Add pagination and advanced filtering on `properties.html`.
+* Add unit tests / accessibility automated tests.
+
+---
+
+## Content & Assets
+
+This project uses the  Towntor copy that includes:
+
+* Hero search and marketing text
+* Featured properties and property cards
+* Property categories (Family Houses, Modern Villas, Countryside Homes)
+* Testimonials
+* Blog/news excerpts
+* Contact & footer content (address, email, phone)
+
